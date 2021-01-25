@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "incremental": true,
+        "moduleResolution": "node",
+        "lib": [
+        "esnext",
+        "esnext.asynciterable",
+        "dom",
+        "es6"
+        ],
+        "types": ["reflect-metadata", "jest"],
+        "esModuleInterop": true,
+        "strict": false,
+    },
+    "exclude": ["node_modules", "dist", "tests"]
+}
+  

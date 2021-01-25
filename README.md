@@ -1,2 +1,2 @@
 # clean-base
-Structure based on clean architecture ready to start
+Typescript project structure based on clean architecture ready to start
